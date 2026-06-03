@@ -25,7 +25,7 @@ export default function Header() {
             </div>
             <div>
               <p className="font-bold text-lg text-primary">PRO-CARE</p>
-              <p className="text-xs text-gray-500">Oxygenated Water</p>
+              <p className="text-xs text-gray-500">Natural Mineral Water</p>
             </div>
           </Link>
 

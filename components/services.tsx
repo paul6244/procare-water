@@ -3,6 +3,18 @@ import { Truck, Building2, Users, Package, Zap } from 'lucide-react'
 export default function Services() {
   const services = [
     {
+      icon: Package,
+      title: '500ml Bottles',
+      description: 'PRO-CARE Natural Mineral Water in 500ml bottles. Super quality purified drinking water produced under strict hygienic conditions.',
+      price: 'Available in Cases',
+    },
+    {
+      icon: Package,
+      title: 'Bulk Orders',
+      description: 'Large quantity orders for events, weddings, and corporate functions. Special pricing available for bulk purchases.',
+      price: 'Bulk Discounts',
+    },
+    {
       icon: Truck,
       title: 'Home Delivery',
       description: 'Regular water delivery directly to your home with flexible subscription plans. Order online and get fresh water within 24 hours.',
@@ -15,12 +27,6 @@ export default function Services() {
       price: 'Custom Pricing',
     },
     {
-      icon: Package,
-      title: 'Bottled Water',
-      description: 'Premium packaged water in various sizes: 500ml, 1L, 5L, and 20L bottles. Available in single bottles or case orders.',
-      price: 'From ₵10/bottle',
-    },
-    {
       icon: Users,
       title: 'Corporate Coolers',
       description: 'Water cooler rental and maintenance for offices. Includes regular refills, cleaning, and technical support.',
@@ -28,12 +34,6 @@ export default function Services() {
     },
     {
       icon: Zap,
-      title: 'Water Filtration Systems',
-      description: 'Advanced home filtration systems for tap water. Professional installation and maintenance included in service plan.',
-      price: 'From ₵1,200',
-    },
-    {
-      icon: Building2,
       title: 'Emergency Supply',
       description: 'Priority water supply service for emergencies, natural disasters, or urgent water shortage situations available 24/7.',
       price: 'Call for Quote',

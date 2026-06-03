@@ -33,7 +33,7 @@ export default function About() {
             About PRO-CARE
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Super quality purified oxygenated mineral water for health-conscious families and businesses. We&apos;re committed to delivering excellence in every drop.
+            Produced in Ghana by Pro-Care Mineral Water, a subsidiary of Procure Charter Limited. We maintain the highest standards to produce super quality purified drinking water under strict hygienic conditions.
           </p>
         </div>
 
@@ -46,7 +46,7 @@ export default function About() {
                   Our Mission
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  To provide premium oxygenated mineral water that supports health and wellness. We believe that if water is life, we provide water with the highest quality standards and fastest delivery service to every household and business.
+                  To provide super quality purified drinking water that supports health and wellness. We believe in producing the best and purest water under strict hygienic conditions, certified by the Ghana Standards Authority, for healthier communities.
                 </p>
               </div>
               <div>
@@ -54,7 +54,7 @@ export default function About() {
                   Why Choose Us?
                 </h3>
                 <ul className="space-y-3">
-                  {['ISO 9001:2015 Certified', 'Laboratory Tested Daily', 'Customer Service Excellence', 'Premium Natural Minerals'].map((item) => (
+                  {['Ghana Standards Authority Certified', 'Produced Under Strict Hygienic Conditions', 'Super Quality Purified Drinking Water', 'Best Before 3 Months After Production'].map((item) => (
                     <li key={item} className="flex items-center gap-3">
                       <CheckCircle className="w-5 h-5 text-primary flex-shrink-0" />
                       <span className="text-gray-700">{item}</span>
@@ -68,7 +68,7 @@ export default function About() {
           {/* Image */}
           <div className="relative w-full h-auto min-h-[400px]">
             <Image
-              src="/pro-care-banner.jpg.jpeg"
+              src="/naa.png"
               alt="PRO-CARE water processing and quality assurance"
               fill
               className="object-contain"
@@ -80,14 +80,15 @@ export default function About() {
 
         {/* Features Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {features.map((feature) => {
+          {features.map((feature, index) => {
             const Icon = feature.icon
             return (
               <div
                 key={feature.title}
-                className="p-6 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:shadow-lg transition"
+                className="group p-6 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:shadow-xl transition duration-300 hover:-translate-y-1"
+                style={{ animationDelay: `${index * 100}ms` }}
               >
-                <div className="bg-primary/10 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+                <div className="bg-primary/10 w-12 h-12 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary/20 transition">
                   <Icon className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">
@@ -107,39 +108,39 @@ export default function About() {
             Our Facility
           </h3>
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="relative w-full h-64 rounded-xl overflow-hidden shadow-lg">
+            <div className="group relative w-full h-64 rounded-xl overflow-hidden shadow-lg">
               <Image
-                src="/WhatsApp Image 2026-05-21 at 10.23.58 AM.jpeg"
+                src="/bottt.jpeg"
                 alt="PRO-CARE facility view"
                 fill
-                className="object-cover"
+                className="object-cover group-hover:scale-110 transition duration-500"
                 sizes="(max-width: 768px) 100vw, 50vw"
               />
             </div>
-            <div className="relative w-full h-64 rounded-xl overflow-hidden shadow-lg">
+            <div className="group relative w-full h-64 rounded-xl overflow-hidden shadow-lg">
               <Image
                 src="/room.jpeg"
                 alt="Production room"
                 fill
-                className="object-cover"
+                className="object-cover group-hover:scale-110 transition duration-500"
                 sizes="(max-width: 768px) 100vw, 50vw"
               />
             </div>
-            <div className="relative w-full h-64 rounded-xl overflow-hidden shadow-lg">
+            <div className="group relative w-full h-64 rounded-xl overflow-hidden shadow-lg">
               <Image
                 src="/ww.jpeg"
                 alt="Water processing equipment"
                 fill
-                className="object-cover"
+                className="object-cover group-hover:scale-110 transition duration-500"
                 sizes="(max-width: 768px) 100vw, 50vw"
               />
             </div>
-            <div className="relative w-full h-64 rounded-xl overflow-hidden shadow-lg">
+            <div className="group relative w-full h-64 rounded-xl overflow-hidden shadow-lg">
               <Image
                 src="/ww2.jpeg"
                 alt="Quality control area"
                 fill
-                className="object-cover"
+                className="object-cover group-hover:scale-110 transition duration-500"
                 sizes="(max-width: 768px) 100vw, 50vw"
               />
             </div>

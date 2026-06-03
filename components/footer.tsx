@@ -54,11 +54,11 @@ export default function Footer() {
               </div>
               <div>
                 <p className="font-bold text-lg text-white">PRO-CARE</p>
-                <p className="text-xs text-gray-400">Oxygenated Mineral Water</p>
+                <p className="text-xs text-gray-400">Natural Mineral Water</p>
               </div>
             </Link>
             <p className="text-sm text-gray-400 leading-relaxed mb-6">
-              Premium oxygenated mineral water delivered 24/7. Laboratory tested, ISO certified, and trusted by families and businesses. If water is life, we provide water.
+              Produced in Ghana by Pro-Care Mineral Water, a subsidiary of Procure Charter Limited. Super quality purified drinking water under strict hygienic conditions, certified by Ghana Standards Authority.
             </p>
             <div className="flex gap-4">
               {socialLinks.map((social) => {
@@ -103,15 +103,15 @@ export default function Footer() {
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
               <p className="text-sm font-semibold text-white mb-2">Phone</p>
-              <a href="tel:+233546875031" className="text-primary hover:text-secondary transition text-sm">
-                054 687 5031 / 053 250 2516<br/>020 364 1390
+              <a href="tel:+233597433583" className="text-primary hover:text-secondary transition text-sm">
+                059 743 3583 / 020 364 1390
               </a>
             </div>
             <div>
-              <p className="text-sm font-semibold text-white mb-2">MoMo</p>
-              <a href="tel:+233597433583" className="text-primary hover:text-secondary transition text-sm">
-                059 743 3583
-              </a>
+              <p className="text-sm font-semibold text-white mb-2">Location</p>
+              <p className="text-gray-400 text-sm">
+                Sepeiman-Ga West Municipal<br/>Accra, Ghana
+              </p>
             </div>
             <div>
               <p className="text-sm font-semibold text-white mb-2">Email</p>
@@ -141,7 +141,7 @@ export default function Footer() {
       <div className="border-t border-gray-800 py-4">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-xs text-gray-500 text-center">
-            ISO 9001:2015 Certified | FDA Approved | Laboratory Tested | 100% Satisfaction Guaranteed
+            Ghana Standards Authority Certified | Produced Under Strict Hygienic Conditions | Super Quality Purified Drinking Water
           </p>
         </div>
       </div>
